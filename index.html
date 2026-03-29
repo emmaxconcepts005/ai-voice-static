@@ -370,46 +370,111 @@
       </div>
     </section>
 
-    <section id="contact" class="section muted">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">Contact</p>
-          <h2>Let’s talk about your AI voice agent project</h2>
-          <p>
-            Have a project in mind? Reach out and let’s build an AI voice system
-            that fits your workflow.
-          </p>
+   <section id="contact" class="section muted">
+  <div class="container contact-wrap">
+    <div class="contact-info-card">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s build your AI voice system</h2>
+      <p class="contact-copy">
+        Tell me what you want to automate, what tools you use, and the kind of workflow
+        you want to build. I’ll review it and get back to you.
+      </p>
 
-          <div class="contact-list">
-            <a href="mailto:emmaxconcepts005@gmail.com">emmaxconcepts005@gmail.com</a>
-            <a href="tel:+2349044811434">+234 904 481 1434</a>
-            <a href="https://wa.me/2348023058277" target="_blank" rel="noreferrer">Chat on WhatsApp</a>
-            <a href="https://www.upwork.com/freelancers/emmanuelo284" target="_blank" rel="noreferrer">View My Upwork Profile</a>
-          </div>
+      <div class="contact-points">
+        <div class="contact-point">
+          <span class="contact-label">Email</span>
+          <a href="mailto:emmaxconcepts005@gmail.com">emmaxconcepts005@gmail.com</a>
         </div>
 
-        <form class="contact-form" onsubmit="event.preventDefault(); alert('Form UI only. Replace this with your real form action later.');">
-          <label>
-            Name
-            <input type="text" placeholder="Your name" required />
-          </label>
+        <div class="contact-point">
+          <span class="contact-label">Phone</span>
+          <a href="tel:+2349044811434">+234 904 481 1434</a>
+        </div>
 
-          <label>
-            Email
-            <input type="email" placeholder="Your email" required />
-          </label>
+        <div class="contact-point">
+          <span class="contact-label">WhatsApp</span>
+          <a href="https://wa.me/2348023058277" target="_blank" rel="noreferrer">
+            Chat on WhatsApp
+          </a>
+        </div>
 
-          <label>
-            Project Details
-            <textarea rows="5" placeholder="Tell me what you want to build" required></textarea>
-          </label>
-
-          <button type="submit" class="btn">Send Message</button>
-        </form>
+        <div class="contact-point">
+          <span class="contact-label">Upwork</span>
+          <a href="https://www.upwork.com/freelancers/emmanuelo284" target="_blank" rel="noreferrer">
+            View My Upwork Profile
+          </a>
+        </div>
       </div>
-    </section>
-  </main>
+    </div>
 
+    <form class="contact-form real-form">
+      <div class="form-grid">
+        <label>
+          Full Name
+          <input type="text" name="name" placeholder="Enter your full name" required />
+        </label>
+
+        <label>
+          Email Address
+          <input type="email" name="email" placeholder="Enter your email address" required />
+        </label>
+      </div>
+
+      <div class="form-grid">
+        <label>
+          Company Name
+          <input type="text" name="company" placeholder="Your company or brand" />
+        </label>
+
+        <label>
+          Phone / WhatsApp
+          <input type="text" name="phone" placeholder="Your phone or WhatsApp number" />
+        </label>
+      </div>
+
+      <div class="form-grid">
+        <label>
+          Service Needed
+          <select name="service" required>
+            <option value="">Select a service</option>
+            <option>AI Voice Agent Setup</option>
+            <option>Workflow Automation</option>
+            <option>CRM & Calendar Integration</option>
+            <option>AI Chatbot Setup</option>
+            <option>Custom AI Automation</option>
+          </select>
+        </label>
+
+        <label>
+          Budget Range
+          <select name="budget">
+            <option value="">Select budget range</option>
+            <option>$50 - $100</option>
+            <option>$100 - $250</option>
+            <option>$250 - $500</option>
+            <option>$500 - $1,000</option>
+            <option>$1,000+</option>
+          </select>
+        </label>
+      </div>
+
+      <label>
+        Project Details
+        <textarea
+          name="message"
+          rows="6"
+          placeholder="Tell me about the AI voice agent, chatbot, or automation workflow you want to build"
+          required
+        ></textarea>
+      </label>
+
+      <div class="form-actions">
+        <button type="submit" class="btn">Send Project Request</button>
+        <p class="form-note">This is your contact form UI. It can be connected to email or a backend next.</p>
+      </div>
+    </form>
+  </div>
+</section>
   <footer class="site-footer">
     <div class="container footer-row">
       <p>© <span id="year"></span> Emmax Concepts. All rights reserved.</p>
