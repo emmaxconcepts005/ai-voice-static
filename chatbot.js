@@ -47,6 +47,7 @@
     },
     industries: {
       text: "It suits any business that relies on calls and bookings: pest control, home services, real estate, clinics, local services, agencies, sales teams and customer support.",
+      link: ["See industry pages", "industries.html"],
       opts: ["voice", "lead"]
     },
     ai: {

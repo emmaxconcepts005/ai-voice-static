@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emmax-concepts.vercel.app/sitemap.xml

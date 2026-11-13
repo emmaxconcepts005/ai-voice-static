@@ -396,3 +396,7 @@ input:user-invalid,textarea:user-invalid{border-color:#C0392B}
 .cb-av{background:#fff!important;padding:4px}
 .cb-av img{width:100%;height:auto;display:block}
 @media (max-width:620px){.logo .mark-img{height:34px}}
+.foot-grid{grid-template-columns:1.5fr 1fr 1fr 1fr 1fr}
+@media (max-width:1020px){.foot-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:620px){.foot-grid{grid-template-columns:1fr 1fr}.foot-grid>div:first-child{grid-column:1/-1}}
+@media (min-width:901px) and (max-width:1100px){nav a{padding:8px 10px;font-size:.9rem}}
