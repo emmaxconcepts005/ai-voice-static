@@ -99,7 +99,7 @@
   root.className = "cb";
   root.innerHTML =
     '<div class="cb-panel" id="cb-panel" role="dialog" aria-label="Chat with the EMMAX assistant" hidden>' +
-      '<div class="cb-head"><span class="cb-av" aria-hidden="true">EX</span><div><b>EMMAX Assistant</b><span>Usually replies instantly</span></div>' +
+      '<div class="cb-head"><span class="cb-av" aria-hidden="true"><img src="images/logo-mark.png" alt=""></span><div><b>EMMAX Assistant</b><span>Usually replies instantly</span></div>' +
       '<button class="cb-close" type="button" aria-label="Close chat">' + ICON_X + '</button></div>' +
       '<div class="cb-log" role="log" aria-live="polite"></div>' +
       '<div class="cb-opts"></div>' +

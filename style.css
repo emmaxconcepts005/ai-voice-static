@@ -390,3 +390,9 @@ input:user-invalid,textarea:user-invalid{border-color:#C0392B}
   .cb-hint{display:none}
 }
 @media (prefers-reduced-motion:reduce){.cb-dots i{animation:none}.cb-btn,.cb-hint{transition:none}}
+/* logo mark */
+.logo .mark-img{height:40px;width:auto;display:block;filter:drop-shadow(0 2px 3px rgba(17,18,20,.18))}
+.site-footer .logo .mark-img{height:46px;filter:none}
+.cb-av{background:#fff!important;padding:4px}
+.cb-av img{width:100%;height:auto;display:block}
+@media (max-width:620px){.logo .mark-img{height:34px}}
