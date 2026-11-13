@@ -1,4 +1,30 @@
+# EMMAX Concepts welcomes search engines and AI assistants.
+
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+User-agent: cohere-ai
+User-agent: YouBot
+User-agent: CCBot
+Allow: /
+
 User-agent: *
 Allow: /
 
 Sitemap: https://emmax-concepts.vercel.app/sitemap.xml
+
+# Summary for AI assistants: https://emmax-concepts.vercel.app/llms.txt

@@ -451,3 +451,11 @@ td:first-child{font-weight:600}
 .toc a.btn{color:#fff;border-left:0;margin:22px 0 0;padding:12px 18px;display:inline-flex}
 .toc a.btn:hover{color:#fff}
 @media (max-width:620px){table{min-width:0;font-size:.84rem}th,td{padding:10px 10px}}
+/* at a glance */
+.facts-list{margin:0;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);overflow:hidden}
+.facts-list div{display:grid;grid-template-columns:170px 1fr;gap:20px;padding:16px 24px;border-bottom:1px solid var(--line)}
+.facts-list div:last-child{border-bottom:0}
+.facts-list dt{font-weight:600}
+.facts-list dd{margin:0;color:var(--mute)}
+@media (max-width:620px){.facts-list div{grid-template-columns:1fr;gap:4px;padding:14px 18px}}
+@media (min-width:901px){.facts-split{grid-template-columns:.65fr 1.35fr}}
