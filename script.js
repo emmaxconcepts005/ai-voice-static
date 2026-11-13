@@ -66,3 +66,17 @@ if (fm) fm.addEventListener("submit", async function (e) {
   }
   btn.disabled = false;
 });
+
+// YouTube: show thumbnail, load the player on click
+document.querySelectorAll(".yt[data-yt]").forEach(function (a) {
+  a.addEventListener("click", function (e) {
+    e.preventDefault();
+    var f = document.createElement("iframe");
+    f.src = "https://www.youtube.com/embed/" + a.getAttribute("data-yt") + "?autoplay=1&rel=0&playsinline=1";
+    f.title = "Video introduction from Emmanuel Olorunsola, EMMAX Concepts";
+    f.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+    f.referrerPolicy = "strict-origin-when-cross-origin";
+    f.allowFullscreen = true;
+    a.replaceWith(f);
+  });
+});
